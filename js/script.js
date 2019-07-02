@@ -20,7 +20,7 @@ $(document).ready(function(){
  //restores all panels to full opacity when reset button clicked 
  $(".superButton").click(function(){
 	$("#panel .container").siblings().fadeTo(1000,1);	
-   }); */
+   }); 
    
    //turns panel background black on mouseenter
 $(".theButton").mouseenter(function(){
@@ -30,6 +30,14 @@ $(".theButton").mouseenter(function(){
    //returns to original colour on mouseout 
 $(".theButton").mouseout(function(){
 	$(this).removeClass("makeBlack");
+   });
+   */
+   
+   //will display rgb value of selected panel in the reset panel
+ $(".theButton").click(function(){
+    var col = $(this).css('background-color');
+  $('.superButton').text( col);
+
    });
    
 });
