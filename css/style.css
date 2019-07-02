@@ -59,3 +59,7 @@ p{
     background-color: #F07D00;
 }
  
+/*make sure to add after all other color classes to advoid cascade issues*/
+.makeBlack{
+   background-color:  #000000;
+} 
