@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+//will need to comment out some code when trying to view effects on theeir own
 /*    
      //hides all panels when a panel is clicked
  $(".theButton").click(function(){
